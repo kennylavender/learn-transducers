@@ -23,7 +23,7 @@ describe('arrayConcat', async should => {
   });
   assert({
     given: 'an an array with items and a string',
-    should: 'return an equavilant array plus the strings',
+    should: 'return an equavilant array plus the new value',
     actual: arrayConcat(['one', 'two'], 'three'),
     expected: ['one', 'two', 'three']
   });

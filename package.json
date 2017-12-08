@@ -1,0 +1,29 @@
+{
+  "name": "learn-transducers",
+  "version": "1.0.0",
+  "description": "learn transducer stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r babel-register -r babel-polyfill source/test/index",
+    "watch": "watch 'clear && npm run -s test' source"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennylavender/learn-transducers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennylavender/learn-transducers/issues"
+  },
+  "homepage": "https://github.com/kennylavender/learn-transducers#readme",
+  "dependencies": {
+    "babel-register": "6.26.0",
+    "riteway": "2.0.3"
+  },
+  "devDependencies": {
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "watch": "1.0.2"
+  }
+}

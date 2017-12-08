@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kennylavender/learn-transducers#readme",
   "dependencies": {
     "babel-register": "6.26.0",
+    "ramda": "0.25.0",
     "riteway": "2.0.3"
   },
   "devDependencies": {

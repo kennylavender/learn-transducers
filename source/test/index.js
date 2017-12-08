@@ -1,1 +1,2 @@
-import './array-concat';
+// import './array-concat';
+import './map';
